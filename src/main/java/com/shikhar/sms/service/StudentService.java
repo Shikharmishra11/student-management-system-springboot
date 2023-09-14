@@ -1,8 +1,8 @@
-package net.javaguides.sms.service;
+package com.shikhar.sms.service;
 
 import java.util.List;
 
-import net.javaguides.sms.entity.Student;
+import com.shikhar.sms.entity.Student;
 
 public interface StudentService {
 	List<Student> getAllStudents();

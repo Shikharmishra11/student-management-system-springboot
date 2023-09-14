@@ -1,4 +1,4 @@
-package net.javaguides.sms.entity;
+package com.shikhar.sms.entity;
 
 import jakarta.persistence.*;
 

@@ -1,15 +1,14 @@
-package net.javaguides.sms.service.impl;
+package com.shikhar.sms.service.impl;
 
 import java.util.List;
 
+import com.shikhar.sms.entity.Student;
+import com.shikhar.sms.repository.StudentRepository;
+import com.shikhar.sms.service.StudentService;
 import org.springframework.stereotype.Service;
 
-import net.javaguides.sms.entity.Student;
-import net.javaguides.sms.repository.StudentRepository;
-import net.javaguides.sms.service.StudentService;
-
 @Service
-public class StudentServiceImpl implements StudentService{
+public class StudentServiceImpl implements StudentService {
 
 	private StudentRepository studentRepository;
 	
